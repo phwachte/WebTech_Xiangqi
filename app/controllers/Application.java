@@ -1,7 +1,6 @@
 package controllers;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -45,8 +44,8 @@ public class Application extends Controller {
 	    	}
 	    	returnVal.add(tmpList);
 	    }
-//	    System.out.println("Parsed List:");
-//	    System.out.println(returnVal);
+	    System.out.println("Parsed List:");
+	    System.out.println(returnVal);
 	    return returnVal;
     }
 }
