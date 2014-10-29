@@ -5,7 +5,11 @@
 	@for(element <- list) {
 		<div class="row">
 		@for(cell <- element){
-			<span class=cell>@cell</span>
+			<span class=cell>
+			@if(cell equals "  "){
+				<image src="/../images/greenField.png" />
+			}
+			</span>
 		}
 		</div>
 	}
