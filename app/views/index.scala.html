@@ -1,11 +1,12 @@
-@(message: String) 
+@(list: ArrayList[ArrayList[String]])
 
 @main("Welcome to Play Framework") {
-
-<div class="well">
-	<pre>
-		<h1>@message</h1>
-	</pre>
-</div>
-
+	
+	@for(element <- list) {
+		<div class="row">
+		@for(cell <- element){
+			<span class=cell>@cell</span>
+		}
+		</div>
+	}
 }
