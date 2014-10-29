@@ -1,7 +1,7 @@
-@(list: ArrayList[ArrayList[String]])
+@(list: ArrayList[ArrayList[String]])(message: String)
 
 @main("Welcome to Xiangqi") {
-	
+	<div class="field">
 	@for(element <- list) {
 		<div class="row">
 		@for(cell <- element){
@@ -13,4 +13,5 @@
 		}
 		</div>
 	}
+	</div>
 }

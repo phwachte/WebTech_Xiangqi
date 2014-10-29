@@ -17,12 +17,12 @@ public class Application extends Controller {
     
     public static Result index() {
     	xg = new XiangqiGame();
-        return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard())));
+        return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), xg.getTui().printBoard()));
     }
     
     public static Result input(String s){
     	xg.getBm().inputMove(s);
-    	return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard())));
+    	return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), xg.getTui().printBoard()));
     }
     
     
