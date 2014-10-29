@@ -5,16 +5,11 @@
 	@for(element <- list) {
 		<div class="row">
 		@for(cell <- element){
-<<<<<<< HEAD
-			<span class="cell">
-				@if(cell!="  "){<image src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">}
-=======
-			<span class=cell>
-			@if(cell equals "  "){
-				<image src="/../images/greenField.png" />
+			@if(cell!="  "){
+				<image class="cell" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+			} else {
+				<span class="cell"></span>
 			}
->>>>>>> 88d0e6a9e4f57aaa73c6021c891024888ebbaedb
-			</span>
 		}
 		</div>
 	}
