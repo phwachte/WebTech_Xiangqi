@@ -7,22 +7,30 @@ import java.util.regex.Pattern;
 import play.mvc.Controller;
 import play.mvc.Result;
 import de.htwg.xiangqi.XiangqiGame;
+import de.htwg.xiangqi.controller.BoardManager;
+import de.htwg.xiangqi.controller.IBoardManager;
 
 public class Application extends Controller {
 	
 	/*cool!!*/
 	private static XiangqiGame xg;
+	private static IBoardManager bm;
 	private static int boardColSize = 9;
 	private static int boardRowSize = boardColSize+1;
     
     public static Result index() {
     	xg = new XiangqiGame();
-        return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), xg.getTui().printBoard()));
+    	bm = xg.getBm();
+        return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), null, bm.getPlayersTurn()));
     }
     
     public static Result input(String s){
-    	xg.getBm().inputMove(s);
-    	return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), xg.getTui().printBoard()));
+    	boolean checkmate = bm.inputMove(s);
+    	String msg = bm.getMessage();
+    	if(checkmate) {
+    		msg = bm.winnerMessage();
+    	}
+    	return ok(views.html.index.render(transformStringToArrayList(xg.getTui().printBoard()), msg, bm.getPlayersTurn()));
     }
     
     
@@ -44,8 +52,8 @@ public class Application extends Controller {
 	    	}
 	    	returnVal.add(tmpList);
 	    }
-	    System.out.println("Parsed List:");
-	    System.out.println(returnVal);
+//	    System.out.println("Parsed List:");
+//	    System.out.println(returnVal);
 	    return returnVal;
     }
 }

@@ -5,20 +5,48 @@
 <head>
     <title>@title</title>
     <link rel='shortcut icon' type='image/png' href='@routes.Assets.at("images/favicon.png")'>
-    <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("bootstrap.min.css"))'>
-    <link rel='stylesheet' href='@routes.Assets.at("stylesheets/cssstyle.css")'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel='stylesheet' type="text/css" href='@routes.Assets.at("stylesheets/cssstyle.css")'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <script type='text/javascript' src='@routes.WebJarAssets.at(WebJarAssets.locate("jquery.min.js"))'></script>
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                <a id="titleLink" class="brand" href="/">@title</a>
-            </div>
+
+	<nav class="navbar navbar-inverse">
+      <div class="container-fluid myNavBar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xiangqiNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="/">@title</a>
         </div>
-    </div>
-    <div class="container">
+        <div class="collapse navbar-collapse" id="xiangqiNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">General</a></li>
+                <li><a href="#">Advisor</a></li>
+                <li><a href="#">...</a></li>
+              </ul>
+            </li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">etc.</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid myContent">
         @content
     </div>
+
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

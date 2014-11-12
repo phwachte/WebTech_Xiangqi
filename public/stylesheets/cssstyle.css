@@ -1,23 +1,74 @@
 /* @CHARSET "ISO-8859-1"; */
 
-body {
-    padding-top: 70px;
-}
-
-.cell {
-	width: 50px;
-	height: 50px;
-	background-color: green;
-	border: 1px solid black;
-	display: inline-block;
-	float: left;
-}
-
-.row {
-	clear: both; /*lonks und recht von mir darf nichts floaten*/
-}
-
-.field {
-/* 	top: 100px; */
-}
-
+		body {
+			background-color: gray;
+		}
+		
+		.xcell {
+			width: 11.1%;
+			height: 10%;
+			background-color: white;
+			border: 2px solid lightblue;
+			display: inline-block;
+			float: left;
+		}
+		
+		.textfield {
+			height: 100px;
+			background-color: purple;
+			border: 5px solid lightblue;
+			text-align: center;
+		}
+		
+		.myContent {
+			padding: 10px;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		
+		.myNavBar {
+			background-color: orange;
+		}
+		
+		p.turn {
+			color: white;
+			text-align: center;
+		}
+		
+		.ourElement {
+			width: 50%;
+		}
+		
+		.circle {
+			width: 50px;
+			background-color: black;
+			border-radius: 50%;
+			height: 50px;
+			display: inline-block;
+		}
+		
+		@media (max-width: 1200px) {
+			.board {
+				margin-bottom: 30px;
+			}
+		}
+		
+		@media (max-width: 992px) {
+			.myContent section:first-of-type {
+				margin-bottom: 30px;
+			}
+		}
+		
+		@media (min-width: 992px) {
+			.myContent section:first-of-type {
+			}
+		}
+		
+		@media (min-width: 1200px) {
+			.myContent section:first-of-type {
+				padding: 0 15px;
+			}
+		}
+		
+		
+		

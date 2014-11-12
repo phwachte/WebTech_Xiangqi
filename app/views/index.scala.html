@@ -1,17 +1,34 @@
-@(list: ArrayList[ArrayList[String]])(message: String)
+@(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)
 
 @main("Welcome to Xiangqi") {
-	<div class="field">
+	<div class="col-xs-12 col-lg-6 board">
 	@for(element <- list) {
-		<div class="row">
+		<div class="clearfix">
 		@for(cell <- element){
 			@if(cell!="  "){
-				<image class="cell" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+				<image class="xcell" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<span class="cell"></span>
+				<image class="xcell" src="@routes.Assets.at("images/greenfield.png")">
 			}
 		}
 		</div>
 	}
 	</div>
+	
+	<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield">
+		@if(message==null){
+			<p>Next move please!</p>
+		} else {
+			@message
+		}
+	</div></section>
+	
+	@if(turn==1){
+		<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield" style="background-color:red;">
+			<div class="circle"></div>
+	} else {
+		<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield" style="background-color:black;">
+	}
+		<p class="turn">Background color shows turn of next player</p></div>
+	</section>
 }

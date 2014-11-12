@@ -1,19 +1,6 @@
-INFO play-akka.actor.default-dispatcher-6 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-6 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-97 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-102 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -26,45 +13,9 @@ INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-102 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [RR][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [  ][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-2: Player Black, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-3 de.htwg.xiangqi.view.tui - 
-Input error (0 0 0 2):
-Target point is not valid for this piece!
-
-INFO play-akka.actor.default-dispatcher-3 de.htwg.xiangqi.view.tui - 
-2: Player Black, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-4 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [  ][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [BR][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [RR][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [  ][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-4 de.htwg.xiangqi.view.tui - 
-3: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-8 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-110 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -77,9 +28,9 @@ INFO play-akka.actor.default-dispatcher-8 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-8 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-110 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-4 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-116 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -92,30 +43,9 @@ INFO play-akka.actor.default-dispatcher-4 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-4 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-116 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-Input error (2 4 2 5):
-No piece on chosen point!
-
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][RS][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][  ][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO AWT-EventQueue-0 de.htwg.xiangqi.view.tui - 
-2: Player Black, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-118 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -128,9 +58,9 @@ INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-118 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-124 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -143,9 +73,9 @@ INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-124 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-124 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -158,9 +88,9 @@ INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-124 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-134 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -173,9 +103,9 @@ INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-12 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-134 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-2 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-144 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -188,9 +118,9 @@ INFO play-akka.actor.default-dispatcher-2 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-2 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-144 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-146 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -203,9 +133,9 @@ INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-146 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-152 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -218,9 +148,9 @@ INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-7 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-152 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-20 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-152 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -233,9 +163,9 @@ INFO play-akka.actor.default-dispatcher-20 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-20 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-152 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-24 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-162 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -248,9 +178,9 @@ INFO play-akka.actor.default-dispatcher-24 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-24 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-162 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-35 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-170 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -263,9 +193,9 @@ INFO play-akka.actor.default-dispatcher-35 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-35 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-170 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-42 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-175 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -278,9 +208,9 @@ INFO play-akka.actor.default-dispatcher-42 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-42 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-175 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-47 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-183 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -293,9 +223,9 @@ INFO play-akka.actor.default-dispatcher-47 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-47 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-183 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-51 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-188 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -308,9 +238,9 @@ INFO play-akka.actor.default-dispatcher-51 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-51 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-188 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-58 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-188 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -323,9 +253,9 @@ INFO play-akka.actor.default-dispatcher-58 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-58 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-188 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-59 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-199 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
 0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
 1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
@@ -338,7 +268,652 @@ INFO play-akka.actor.default-dispatcher-59 de.htwg.xiangqi.view.tui -
 8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
-INFO play-akka.actor.default-dispatcher-59 de.htwg.xiangqi.view.tui - 
+INFO play-akka.actor.default-dispatcher-199 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-203 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-203 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-206 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-206 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-213 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-213 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-218 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-218 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-229 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-229 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-230 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-230 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-241 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-241 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-239 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-239 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-251 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-251 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-258 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-258 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-264 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-264 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-271 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-271 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-280 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-280 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-288 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-288 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-288 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-288 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-304 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-304 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-310 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-310 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-317 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-317 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-325 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-325 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-320 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-320 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-329 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-329 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-336 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-336 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-343 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-343 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-348 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-348 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-355 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-355 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-365 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-365 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-367 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-367 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-372 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-372 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-380 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-380 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-382 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-382 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-382 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-382 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-392 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-392 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-404 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-404 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-412 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-412 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-415 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-415 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-415 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-415 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-424 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-424 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-422 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-422 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-422 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-422 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-440 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-440 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-446 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-446 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-449 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-449 de.htwg.xiangqi.view.tui - 
+1: Player Red, choose piece and point: 
+INFO play-akka.actor.default-dispatcher-456 de.htwg.xiangqi.view.tui - 
+   0   1   2   3   4   5   6   7   8
+0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
+1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
+3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
+4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
+7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
+8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
+9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
+
+INFO play-akka.actor.default-dispatcher-456 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
 INFO play-akka.actor.default-dispatcher-9 de.htwg.xiangqi.view.tui - 
    0   1   2   3   4   5   6   7   8
@@ -354,474 +929,4 @@ INFO play-akka.actor.default-dispatcher-9 de.htwg.xiangqi.view.tui -
 9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
 
 INFO play-akka.actor.default-dispatcher-9 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-5 de.htwg.xiangqi.view.tui - 
-Invalid value(s):  0 9 0 8
-INFO play-akka.actor.default-dispatcher-5 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-11 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-11 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-20 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-20 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-25 de.htwg.xiangqi.view.tui - 
-Invalid value(s):  9 0 8 0
-INFO play-akka.actor.default-dispatcher-25 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-3 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-3 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-5 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-5 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-10 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-16 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-16 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-16 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-16 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-13 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-27 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-27 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-27 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-27 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-35 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-35 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-42 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-42 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-48 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-48 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-37 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-56 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-56 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-45 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-45 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-59 de.htwg.xiangqi.view.tui - 
-Invalid value(s):  9 0 8 0
-INFO play-akka.actor.default-dispatcher-59 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-45 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-45 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-68 de.htwg.xiangqi.view.tui - 
-Invalid value(s):  0 9 0 8
-INFO play-akka.actor.default-dispatcher-68 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-68 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-68 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-Invalid value(s):  9 0 8 0
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-72 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-77 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [RR][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [  ][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-77 de.htwg.xiangqi.view.tui - 
-2: Player Black, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-81 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-81 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-87 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-87 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-82 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-82 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-84 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-84 de.htwg.xiangqi.view.tui - 
-1: Player Red, choose piece and point: 
-INFO play-akka.actor.default-dispatcher-93 de.htwg.xiangqi.view.tui - 
-   0   1   2   3   4   5   6   7   8
-0 [BR][BH][BE][BA][BG][BA][BE][BH][BR]
-1 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-2 [  ][BC][  ][  ][  ][  ][  ][BC][  ]
-3 [BS][  ][BS][  ][BS][  ][BS][  ][BS]
-4 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-5 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-6 [RS][  ][RS][  ][RS][  ][RS][  ][RS]
-7 [  ][RC][  ][  ][  ][  ][  ][RC][  ]
-8 [  ][  ][  ][  ][  ][  ][  ][  ][  ]
-9 [RR][RH][RE][RA][RG][RA][RE][RH][RR]
-
-INFO play-akka.actor.default-dispatcher-93 de.htwg.xiangqi.view.tui - 
 1: Player Red, choose piece and point: 
