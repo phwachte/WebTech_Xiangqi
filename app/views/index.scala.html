@@ -2,33 +2,54 @@
 
 @main("Welcome to Xiangqi") {
 	<div class="col-xs-12 col-lg-6 board">
-	@for(element <- list) {
+	@for((element, rID) <- list.zipWithIndex) {
 		<div class="clearfix">
-		@for(cell <- element){
+		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
-				<image class="xcell" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<image class="xcell" src="@routes.Assets.at("images/greenfield.png")">
+				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/greenfield.png")">
 			}
 		}
 		</div>
 	}
 	</div>
 	
-	<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield">
-		@if(message==null){
-			<p>Next move please!</p>
-		} else {
-			@message
-		}
-	</div></section>
-	
-	@if(turn==1){
-		<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield" style="background-color:red;">
-			<div class="circle"></div>
-	} else {
-		<section class="col-xs-12 col-md-6 col-lg-3"><div class="textfield" style="background-color:black;">
-	}
-		<p class="turn">Background color shows turn of next player</p></div>
+	<section class="col-xs-12 col-md-6 col-lg-3 toCenter">
+		<div class="textfield">
+			@if(message==null){
+				<p>Next move please!</p>
+			} else {
+				@message
+			}
+		</div>
+		<br>
+		<div class="textfield container-fluid">
+			<p>Your next move:</p><br>
+			
+			<div class="col-xs-12 col-lg-5">
+				Figure:<br>
+				<p>x: <input class="nextMove InputFigurex" type="text"></p>
+				<p>y: <input class="nextMove InputFigurey" type="text"></p>
+			</div>
+			
+			<div class="col-xs-12 col-lg-5">
+				Dest:<br>
+				<p>x: <input class="nextMove InputDestinationx" type="text"></p>
+				<p>y: <input class="nextMove InputDestinationy" type="text"></p>
+			</div>
+		
+			<button class="nextMove col-xs-12 col-lg-2 btn" type="button">Go!</button>
+		</div>
 	</section>
+	
+	<section class="col-xs-12 col-md-6 col-lg-3 textfieldWithoutBackground toCenter">
+		<p>Next player:</p>
+		@if(turn==1){
+				<div class="redcircle"></div>
+		} else {
+				<div class="blackcircle"></div>
+		}
+	</section>
+	
 }

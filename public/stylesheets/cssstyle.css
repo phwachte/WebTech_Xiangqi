@@ -1,23 +1,37 @@
 /* @CHARSET "ISO-8859-1"; */
 
 		body {
-			background-color: gray;
+			background-color: lightslategray;
 		}
 		
 		.xcell {
 			width: 11.1%;
 			height: 10%;
-			background-color: white;
-			border: 2px solid lightblue;
+			background-color: lightyellow;
+			border: 2px solid black;
 			display: inline-block;
 			float: left;
 		}
 		
 		.textfield {
-			height: 100px;
-			background-color: purple;
-			border: 5px solid lightblue;
-			text-align: center;
+			height: auto;
+			background-color: lightseagreen;
+			border: 5px solid black;
+		}
+		
+		.textfieldWithoutBackground {
+			height: auto;
+			border: 5px solid black;
+		}
+		
+		input.nextMove {
+			width: 15px;
+			color: black;
+		}
+		
+		.btn.nextMove {
+			padding: 0px;
+			color: black;
 		}
 		
 		.myContent {
@@ -27,10 +41,10 @@
 		}
 		
 		.myNavBar {
-			background-color: orange;
+			background-color: lightseagreen;
 		}
 		
-		p.turn {
+		.toCenter {
 			color: white;
 			text-align: center;
 		}
@@ -39,11 +53,19 @@
 			width: 50%;
 		}
 		
-		.circle {
-			width: 50px;
+		.redcircle {
+			width: 70px;
+			background-color: red;
+			border-radius: 30%;
+			height: 70px;
+			display: inline-block;
+		}
+		
+		.blackcircle {
+			width: 70px;
 			background-color: black;
-			border-radius: 50%;
-			height: 50px;
+			border-radius: 70%;
+			height: 70px;
 			display: inline-block;
 		}
 		
