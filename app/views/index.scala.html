@@ -1,4 +1,4 @@
-@(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)
+@(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)(playerID: Int)
 
 @main("Welcome to Xiangqi") {
 	<div class="col-xs-12 col-lg-6 board">
@@ -43,13 +43,26 @@
 		</div>
 	</section>
 	
-	<section class="col-xs-12 col-md-6 col-lg-3 textfieldWithoutBackground toCenter">
-		<p>Next player:</p>
-		@if(turn==1){
-				<div class="redcircle"></div>
-		} else {
-				<div class="blackcircle"></div>
-		}
+	<section class="col-xs-12 col-md-6 col-lg-3 textfieldWithoutBackground">
+		<div class="container-fluid">
+			<div class="col-xs-6 toCenter">
+				<p>You are player:</p>
+				<div id="playersTurn"></div>
+				@if(playerID==1){
+					<div class="redcircle"></div>
+				} else {
+					<div class="blackcircle"></div>
+				}
+			</div>
+			<div class="col-xs-6 toCenter">
+				<p>Next player:</p>
+				@if(turn==1){
+						<div class="redcircle"></div>
+				} else {
+						<div class="blackcircle"></div>
+				}
+			</div>
+		</div>
 	</section>
 	
 }

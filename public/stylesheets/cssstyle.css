@@ -21,7 +21,7 @@
 		
 		.textfieldWithoutBackground {
 			height: auto;
-			border: 5px solid black;
+#			border: 5px solid black;
 		}
 		
 		input.nextMove {
@@ -54,18 +54,20 @@
 		}
 		
 		.redcircle {
-			width: 70px;
+			width: 60px;
 			background-color: red;
-			border-radius: 30%;
-			height: 70px;
+			border-radius: 100%;
+			border: 5px solid black;
+			height: 60px;
 			display: inline-block;
 		}
 		
 		.blackcircle {
-			width: 70px;
+			width: 60px;
 			background-color: black;
-			border-radius: 70%;
-			height: 70px;
+			border-radius: 100%;
+			border: 5px solid white;
+			height: 60px;
 			display: inline-block;
 		}
 		

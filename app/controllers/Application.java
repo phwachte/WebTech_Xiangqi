@@ -38,7 +38,7 @@ public class Application extends Controller {
 
 	public static Result playGame() {
 		Match m;
-		int cookieId = Integer.parseInt(request().cookie("id").value()) - 1;
+		int cookieId = Integer.parseInt(request().cookie("id").value());
 		if (lonelyMatch != null) {
 			m = lonelyMatch;
 			lonelyMatch = null;
@@ -47,10 +47,10 @@ public class Application extends Controller {
 			lonelyMatch = m;
 		}
 
-		players.get(cookieId).setMatch(m);
-		m.addPlayer(players.get(cookieId));
+		players.get(cookieId - 1).setMatch(m);
+		m.addPlayer(players.get(cookieId - 1));
 		return ok(views.html.index.render(transformStringToArrayList(m.getXg()
-				.getTui().printBoard()), null, m.getBm().getPlayersTurn()));
+				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), cookieId % 2));
 	}
 
 	// Websocket interface fro Chat
@@ -66,10 +66,8 @@ public class Application extends Controller {
 
 	// Websocket intrface for Observersocket
 	public static WebSocket<String> getNewObserverSocket() {
-		int cookieId = Integer.parseInt(request().cookie("id").value()) - 1;
-		System.out
-				.println("\n\ngetNewObserverSocketOUT:\n" + cookieId + "\n\n");
-		Player p = players.get(cookieId);
+		int cookieId = Integer.parseInt(request().cookie("id").value());
+		Player p = players.get(cookieId - 1);
 
 		WebSocket<String> ws = new WebSocket<String>() {
 			@Override
@@ -98,12 +96,12 @@ public class Application extends Controller {
 	};
 
 	public static Result WUIupdate() {
-		int cookieId = Integer.parseInt(request().cookie("id").value()) - 1;
-		Player p = players.get(cookieId);
+		int cookieId = Integer.parseInt(request().cookie("id").value());
+		Player p = players.get(cookieId - 1);
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
 		return ok(views.html.index.render(transformStringToArrayList(xg
-				.getTui().printBoard()), null, bm.getPlayersTurn()));
+				.getTui().printBoard()), null, bm.getPlayersTurn(), cookieId % 2));
 	}
 
 	// get the ws.js script
@@ -117,20 +115,21 @@ public class Application extends Controller {
 		Player p = players.get(cookieId - 1);
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
+		int pID = cookieId % 2;
 		int turn = bm.getPlayersTurn();
 
-		if (cookieId % 2 == turn) {
+		if (pID == turn) {
 			boolean checkmate = bm.inputMove(s);
 			String msg = bm.getMessage();
 			if (checkmate) {
 				msg = bm.winnerMessage();
 			}
 			return ok(views.html.index.render(transformStringToArrayList(xg
-					.getTui().printBoard()), msg, turn));
+					.getTui().printBoard()), msg, turn, pID));
 		} else {
 			return ok(views.html.index.render(transformStringToArrayList(xg
 					.getTui().printBoard()), "Please wait! Opponent's turn...",
-					turn));
+					turn, pID));
 		}
 	}
 
