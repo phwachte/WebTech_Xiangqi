@@ -6,11 +6,16 @@
 		
 		.xcell {
 			width: 11.1%;
-			height: 10%;
+			height: 9.1%;
 			background-color: lightyellow;
 			border: 2px solid black;
 			display: inline-block;
 			float: left;
+		}
+		
+		.river {
+			background-color: blue;
+			border: 0;
 		}
 		
 		.textfield {

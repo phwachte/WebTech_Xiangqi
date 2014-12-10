@@ -7,7 +7,6 @@ $("#dynamicallyLoadableContent").on("click", "button.nextMove",function(){
 	
 	var input = "input/" + figurey + "%20" + figurex + "%20" + destinationy + "%20" + destinationx
 	$("#dynamicallyLoadableContent").load(input + " #dynamicallyLoadableContent");
-	
 });
 
 var figurex;
