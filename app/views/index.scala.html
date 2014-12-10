@@ -1,9 +1,7 @@
 @(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)(playerID: Int)
 
-
-
 @main("Welcome to Xiangqi") {
-	<div class="col-xs-12 col-lg-6 board">
+	<div class="col-xs-12 col-md-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
 		@if(rID == 5){
 			<div>
@@ -24,7 +22,7 @@
 	}
 	</div>
 		
-	<section class="col-xs-12 col-md-6 col-lg-3 toCenter">
+	<section class="col-xs-12 col-md-6 toCenter">
 		<div class="textfield">
 			@if(message==null){
 				<p>Awaiting next move!</p>
@@ -50,11 +48,11 @@
 		
 			<button class="nextMove col-xs-12 col-lg-2 btn" type="button">Go!</button>
 		</div>
-	</section>
+<!-- 	</section> -->
 	
-	<section class="col-xs-12 col-md-6 col-lg-3 textfieldWithoutBackground">
-		<div class="container-fluid">
-			<div class="col-xs-6 toCenter">
+<!-- 	<section class="col-xs-12 col-md-6 col-lg-6"> -->
+		<div class="textfield container-fluid">
+			<div class="col-xs-6">
 				<p>You are player:</p>
 				<div id="playersTurn"></div>
 				@if(playerID==1){
@@ -63,7 +61,7 @@
 					<div class="blackcircle"></div>
 				}
 			</div>
-			<div class="col-xs-6 toCenter">
+			<div class="col-xs-6 ">
 				<p>Next player:</p>
 				@if(turn==1){
 						<div class="redcircle"></div>
@@ -72,6 +70,12 @@
 				}
 			</div>
 		</div>
+		
+		<div>
+	        <h1 color="#4C1A1A">Chat</h1>
+	        <input type="text" id="socket-input" style=" color:black"/>
+	        <div id="socket-messages" class="textfield" style=""></div>
+    	</div>
 	</section>
 	
 }

@@ -1,5 +1,8 @@
- $(function(){
-	var ObserverSocket = getObserverSocket();
+var ObserverSocket;
+
+$(function(){
+	ObserverSocket = getObserverSocket();
+	
 	ObserverSocket.onmessage = function(event){
 		if(event.data == "updateNow"){
 			$("#dynamicallyLoadableContent").load("/WUIupdate" + " #dynamicallyLoadableContent");
@@ -13,11 +16,12 @@
 		
 	}
 	 
-	$('#socket-input').keyup(function(event){
+	$('#dynamicallyLoadableContent').keyup(function(event){
         var charCode = (event.which) ? event.which : event.keyCode ;
        
         // if enter (charcode 13) is pushed, send message, then clear input field
         if(charCode === 13){
+        	alert('kkkkk');
         	ObserverSocket.send($(this).val());
             $(this).val('');    
         }
