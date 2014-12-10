@@ -3,12 +3,12 @@
 @main("Welcome to Xiangqi") {
 	<div class="col-xs-12 col-lg-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
-		<div class="clearfix">
+		<div class="clearfix" rowID="@rID">
 		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
 				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/greenfield.png")">
+				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/opacity.png")">
 			}
 		}
 		</div>
