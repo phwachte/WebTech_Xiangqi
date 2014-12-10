@@ -7,13 +7,13 @@ import java.util.regex.Pattern;
 
 import model.Match;
 import model.Player;
+import model.Player.gameStat;
 import model.SimpleChat;
 import play.libs.F.Callback;
 import play.libs.F.Callback0;
-import play.mvc.*;
-import play.mvc.Http.Request;
-import views.js.ws;
-import de.htwg.util.observer.IObserver;
+import play.mvc.Controller;
+import play.mvc.Result;
+import play.mvc.WebSocket;
 import de.htwg.xiangqi.XiangqiGame;
 import de.htwg.xiangqi.controller.IBoardManager;
 
@@ -22,7 +22,7 @@ public class Application extends Controller {
 	private static int boardColSize = 9;
 	private static int boardRowSize = boardColSize + 1;
 
-	private static List<Match> matches = new ArrayList<Match>();
+//	private static List<Match> matches = new ArrayList<Match>();
 	private static Match lonelyMatch = null;
 
 	private static List<Player> players = new ArrayList<Player>();
@@ -75,7 +75,6 @@ public class Application extends Controller {
 					WebSocket.Out<String> out) {
 				p.setIn(in);
 				p.setOut(out);
-				/* TODO eventhandling */
 				SimpleChat.connections.add(out);
 
 				in.onMessage(new Callback<String>() {
@@ -101,7 +100,23 @@ public class Application extends Controller {
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
 		return ok(views.html.index.render(transformStringToArrayList(xg
-				.getTui().printBoard()), null, bm.getPlayersTurn(), cookieId % 2));
+				.getTui().printBoard()), p.getMsg(), bm.getPlayersTurn(), cookieId % 2));
+	}
+	
+	public static Result WUIwon() {
+		int cookieId = Integer.parseInt(request().cookie("id").value());
+		Player p = players.get(cookieId - 1);
+		XiangqiGame xg = p.getMatch().getXg();
+		return ok(views.html.theEndYouWon.render(transformStringToArrayList(xg
+				.getTui().printBoard())));
+	}
+	
+	public static Result WUIlost() {
+		int cookieId = Integer.parseInt(request().cookie("id").value());
+		Player p = players.get(cookieId - 1);
+		XiangqiGame xg = p.getMatch().getXg();
+		return ok(views.html.theEndYouLost.render(transformStringToArrayList(xg
+				.getTui().printBoard())));
 	}
 
 	// get the ws.js script
@@ -120,17 +135,29 @@ public class Application extends Controller {
 
 		if (pID == turn) {
 			boolean checkmate = bm.inputMove(s);
-			String msg = bm.getMessage();
+			p.setMsg(bm.getMessage());
 			if (checkmate) {
-				msg = bm.winnerMessage();
+				p.setStat(gameStat.WON);
+				if(p.getPlayerID() == p.getMatch().getP1().getPlayerID()){
+					p.getMatch().getP2().setStat(gameStat.LOST);
+				}else{
+					p.getMatch().getP1().setStat(gameStat.LOST);
+				}
+				p.setMsg(bm.winnerMessage());
+				p.getMatch().update();
+//				return ok(views.html.theEndYouWon.render(transformStringToArrayList(xg
+//						.getTui().printBoard())));
+				
 			}
-			return ok(views.html.index.render(transformStringToArrayList(xg
-					.getTui().printBoard()), msg, turn, pID));
+			
 		} else {
-			return ok(views.html.index.render(transformStringToArrayList(xg
-					.getTui().printBoard()), "Please wait! Opponent's turn...",
-					turn, pID));
+			p.setMsg("Please wait! Opponent's turn...");
+			
 		}
+		
+		return ok(views.html.index.render(transformStringToArrayList(xg
+					.getTui().printBoard()), p.getMsg(),
+					turn, pID));
 	}
 
 	/*

@@ -17,3 +17,5 @@ dist
 /.settings
 *-shim.sbt
 /bin/
+
+*.log

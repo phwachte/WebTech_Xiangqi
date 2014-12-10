@@ -8,6 +8,9 @@ GET		/input/:s					controllers.Application.input(s: String)
 
 # Observer
 GET		/WUIupdate					controllers.Application.WUIupdate()
+GET		/WUIwon						controllers.Application.WUIwon()
+GET		/WUIlost					controllers.Application.WUIlost()
+
 GET		/getNewObserverSocket		controllers.Application.getNewObserverSocket()
 
 # Chat

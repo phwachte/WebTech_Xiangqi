@@ -3,6 +3,10 @@
 	ObserverSocket.onmessage = function(event){
 		if(event.data == "updateNow"){
 			$("#dynamicallyLoadableContent").load("/WUIupdate" + " #dynamicallyLoadableContent");
+		}else if(event.data == "youWon"){
+			$("#dynamicallyLoadableContent").load("/WUIwon" + " #dynamicallyLoadableContent");
+		}else if(event.data == "youLost"){
+			$("#dynamicallyLoadableContent").load("/WUIlost" + " #dynamicallyLoadableContent");
 		}else{
 			 $('#socket-messages').prepend('<p>'+event.data+'</p>');
 		}
@@ -32,6 +36,7 @@ function getObserverSocket(){
 	// get websocket class, firefox has a different way to get it
 	var WS = window['MozWebSocket'] ? window['MozWebSocket'] : WebSocket;
 	// open pewpew with websocket
-	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
+//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
+	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
 	return socket;
 }
