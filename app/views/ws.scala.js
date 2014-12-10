@@ -36,7 +36,7 @@ function getObserverSocket(){
 	// get websocket class, firefox has a different way to get it
 	var WS = window['MozWebSocket'] ? window['MozWebSocket'] : WebSocket;
 	// open pewpew with websocket
-//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
-	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
+	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
+//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
 	return socket;
 }
