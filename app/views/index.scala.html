@@ -1,9 +1,18 @@
 @(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)(playerID: Int)
 
+
+
 @main("Welcome to Xiangqi") {
 	<div class="col-xs-12 col-lg-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
-		<div class="clearfix" rowID="@rID">
+		@if(rID == 5){
+			<div>
+				@for(i<-1 to 9){
+					<image class="xcell river" src="@routes.Assets.at("images/opacity.png")">
+				}
+			</div>
+		}
+		<div class="clearfix" id="boardRow@rID">
 		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
 				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
@@ -14,7 +23,7 @@
 		</div>
 	}
 	</div>
-	
+		
 	<section class="col-xs-12 col-md-6 col-lg-3 toCenter">
 		<div class="textfield">
 			@if(message==null){
