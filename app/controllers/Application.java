@@ -17,6 +17,10 @@ import play.mvc.WebSocket;
 import de.htwg.xiangqi.XiangqiGame;
 import de.htwg.xiangqi.controller.IBoardManager;
 
+// TODO: authentication:
+// https://developers.google.com/accounts/docs/OpenIDConnect
+// https://github.com/pac4j/play-pac4j
+
 public class Application extends Controller {
 
 	private static int boardColSize = 9;
@@ -67,7 +71,7 @@ public class Application extends Controller {
 	// Websocket intrface for Observersocket
 	public static WebSocket<String> getNewObserverSocket() {
 		int cookieId = Integer.parseInt(request().cookie("id").value());
-		Player p = players.get(cookieId - 1);
+		final Player p = players.get(cookieId - 1);
 
 		WebSocket<String> ws = new WebSocket<String>() {
 			@Override

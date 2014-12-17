@@ -21,7 +21,7 @@ $(function(){
        
         // if enter (charcode 13) is pushed, send message, then clear input field
         if(charCode === 13){
-        	alert('kkkkk');
+        	alert($(this).val());
         	ObserverSocket.send($(this).val());
             $(this).val('');    
         }
