@@ -1,103 +1,125 @@
 /* @CHARSET "ISO-8859-1"; */
+@font-face {
+	font-family: 'chinese';
+	src: url("../fonts/CHINESETAKEAWAY.ttf"); /* Safari, Android, iOS */
+}
 
-		body {
-			background-color: lightslategray;
-		}
+@font-face {
+	font-family: 'gang';
+	src: url("../fonts/go3v2.ttf"); /* Safari, Android, iOS */
+}
+
+body {
+	background-image: url("../images/chinamountain.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'chinese';
+	/*text-transform: uppercase;*/
+	font-size: 25px;
+}
+
+.h1 {
+	font-size: inherit;
+}
+
+.xcell {
+	width: 11.1%;
+	height: 9.3%;
+	border: 1px solid black;
+	display: inline-block;
+	float: left;
+	background-color: lavender;
+}
+
+.riverpic {
+	width: 100%;
+	padding-right: 0.1%;
+}
+
+.textfield {
+	color: #4C1A1A;
+	height: auto;
+	background-color: rgba(210, 250, 247, 0.7);
+	border-radius: 25px;
+}
+
+.textfieldWithoutBackground {
+	height: auto;
+	border: 5px solid black;
+}
+
+input.nextMove {
+	width: 30px;
+}
+
+.btn {
+	padding: 5px;
+	font-size: inherit;
+}
+
+.myContent {
+	padding: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.myNavBar {
+	background-color: lightseagreen;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+	color: black;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.toCenter {
+	color: white;
+	text-align: center;
+}
+
+.ourElement {
+	width: 50%;
+}
+
+.redcircle {
+	width: 60px;
+	background-color: red;
+	border-radius: 100%;
+	border: 5px solid black;
+	height: 60px;
+	display: inline-block;
+}
+
+.blackcircle {
+	width: 60px;
+	background-color: black;
+	border-radius: 100%;
+	border: 5px solid white;
+	height: 60px;
+	display: inline-block;
+}
+
+@media ( max-width : 1200px) {
+	.board {
+		margin-bottom: 30px;
+	}
+}
+
+@media ( max-width : 992px) {
+	.myContent section:first-of-type {
+		margin-bottom: 30px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.myContent section:first-of-type {
 		
-		.xcell {
-			width: 11.1%;
-			height: 9.1%;
-			background-color: lightyellow;
-			border: 2px solid black;
-			display: inline-block;
-			float: left;
-		}
-		
-		.river {
-			background-color: blue;
-			border: 0;
-		}
-		
-		.textfield {
-			height: auto;
-			background-color: lightseagreen;
-			border: 5px solid black;
-		}
-		
-		.textfieldWithoutBackground {
-			height: auto;
-#			border: 5px solid black;
-		}
-		
-		input.nextMove {
-			width: 15px;
-			color: black;
-		}
-		
-		.btn.nextMove {
-			padding: 0px;
-			color: black;
-		}
-		
-		.myContent {
-			padding: 10px;
-			margin-left: 10%;
-			margin-right: 10%;
-		}
-		
-		.myNavBar {
-			background-color: lightseagreen;
-		}
-		
-		.toCenter {
-			color: white;
-			text-align: center;
-		}
-		
-		.ourElement {
-			width: 50%;
-		}
-		
-		.redcircle {
-			width: 60px;
-			background-color: red;
-			border-radius: 100%;
-			border: 5px solid black;
-			height: 60px;
-			display: inline-block;
-		}
-		
-		.blackcircle {
-			width: 60px;
-			background-color: black;
-			border-radius: 100%;
-			border: 5px solid white;
-			height: 60px;
-			display: inline-block;
-		}
-		
-		@media (max-width: 1200px) {
-			.board {
-				margin-bottom: 30px;
-			}
-		}
-		
-		@media (max-width: 992px) {
-			.myContent section:first-of-type {
-				margin-bottom: 30px;
-			}
-		}
-		
-		@media (min-width: 992px) {
-			.myContent section:first-of-type {
-			}
-		}
-		
-		@media (min-width: 1200px) {
-			.myContent section:first-of-type {
-				padding: 0 15px;
-			}
-		}
-		
-		
-		
+	}
+}
+
+@media ( min-width : 1200px) {
+	.myContent section:first-of-type {
+		padding: 0 15px;
+	}
+}

@@ -1,16 +1,10 @@
 @(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)(playerID: Int)
 
-
-
-@main("Welcome to Xiangqi") {
-	<div class="col-xs-12 col-lg-6 board">
+@main("Xiangqi - Chinese Chess") {
+	<div class="col-xs-12 col-md-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
 		@if(rID == 5){
-			<div>
-				@for(i<-1 to 9){
-					<image class="xcell river" src="@routes.Assets.at("images/opacity.png")">
-				}
-			</div>
+			<img class="clearfix riverpic" src="@routes.Assets.at("/images/river.png")">
 		}
 		<div class="clearfix" id="boardRow@rID">
 		@for((cell, cID) <- element.zipWithIndex){
@@ -24,7 +18,7 @@
 	}
 	</div>
 		
-	<section class="col-xs-12 col-md-6 col-lg-3 toCenter">
+	<section class="col-xs-12 col-md-6 toCenter">
 		<div class="textfield">
 			@if(message==null){
 				<p>Awaiting next move!</p>
@@ -36,25 +30,26 @@
 		<div class="textfield container-fluid">
 			<p>Your next move:</p><br>
 			
-			<div class="col-xs-12 col-lg-5">
+			<div class="col-xs-5 col-lg-5">
 				Figure:<br>
 				<p>x: <input class="nextMove InputFigurex" type="text"></p>
 				<p>y: <input class="nextMove InputFigurey" type="text"></p>
 			</div>
 			
-			<div class="col-xs-12 col-lg-5">
+			<div class="col-xs-5 col-lg-5">
 				Dest:<br>
 				<p>x: <input class="nextMove InputDestinationx" type="text"></p>
 				<p>y: <input class="nextMove InputDestinationy" type="text"></p>
 			</div>
 		
-			<button class="nextMove col-xs-12 col-lg-2 btn" type="button">Go!</button>
+			<button class="btn nextMove col-xs-2 col-lg-2" type="button">Go!</button>
 		</div>
-	</section>
+		<br>
+<!-- 	</section> -->
 	
-	<section class="col-xs-12 col-md-6 col-lg-3 textfieldWithoutBackground">
-		<div class="container-fluid">
-			<div class="col-xs-6 toCenter">
+<!-- 	<section class="col-xs-12 col-md-6 col-lg-6"> -->
+		<div class="textfield container-fluid">
+			<div class="col-xs-6">
 				<p>You are player:</p>
 				<div id="playersTurn"></div>
 				@if(playerID==1){
@@ -63,8 +58,8 @@
 					<div class="blackcircle"></div>
 				}
 			</div>
-			<div class="col-xs-6 toCenter">
-				<p>Next player:</p>
+			<div class="col-xs-6 ">
+				<p>Current player:</p>
 				@if(turn==1){
 						<div class="redcircle"></div>
 				} else {
@@ -72,6 +67,15 @@
 				}
 			</div>
 		</div>
+		<br>
+		
+		<div class="textfield container-fluid">
+			<div>
+		        <h1>Chat</h1>
+		        <input type="text" id="socket-input">
+		        <div id="socket-messages" class="textfield" style=""></div>
+	    	</div>
+    	</div>
 	</section>
 	
 }
