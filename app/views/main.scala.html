@@ -31,8 +31,8 @@
             <li class="active"><a href="#">Home</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">General</a></li>
-                <li><a href="#">Advisor</a></li>
+                <li><a href="@routes.Assets.at("/rules/general.html")" target="rules-text">General</a></li>
+                <li><button onclick="getElementById('rules-text').innerHTML=Date()">Advisor</button></li>
                 <li><a href="#">...</a></li>
               </ul>
             </li>
@@ -50,6 +50,18 @@
     <div class="container-fluid myContent">
     	<div id="dynamicallyLoadableContent">@content</div>
     </div>
+    
+    <div class="textfield container-fluid" id="tohide">
+		<div>
+	        <h1>Chat</h1>
+	        <input type="text" id="socket-input">
+	        <div id="socket-messages" class="textfield" style=""></div>
+    	</div>
+   	</div>
+    
+    <div class="textfield container-fluid">
+		<div id="rules-text"></div>
+   	</div>
 
 </body>
 </html>

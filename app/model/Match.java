@@ -62,6 +62,7 @@ public class Match implements IObserver {
 	public void updateChat(String s) {
 		p1.getOut().write(s);
 		p2.getOut().write(s);
+		System.out.println("########UpdateChat: " + s);
 	}
 
 	/*

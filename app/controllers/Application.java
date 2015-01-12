@@ -57,17 +57,6 @@ public class Application extends Controller {
 				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), cookieId % 2));
 	}
 
-	// Websocket interface fro Chat
-	public static WebSocket<String> wsInterface() {
-		return new WebSocket<String>() {
-			// called when websocket handshake is done
-			public void onReady(WebSocket.In<String> in,
-					WebSocket.Out<String> out) {
-				SimpleChat.start(in, out);
-			}
-		};
-	}
-
 	// Websocket intrface for Observersocket
 	public static WebSocket<String> getNewObserverSocket() {
 		int cookieId = Integer.parseInt(request().cookie("id").value());

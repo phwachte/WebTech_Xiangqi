@@ -1,6 +1,8 @@
 var ObserverSocket;
 
 $(function(){
+	$('#tohide').hide();
+	
 	ObserverSocket = getObserverSocket();
 	
 	ObserverSocket.onmessage = function(event){
@@ -16,31 +18,22 @@ $(function(){
 		
 	}
 	 
-	$('#dynamicallyLoadableContent').keyup(function(event){
+	$('#socket-input').keyup(function(event){
         var charCode = (event.which) ? event.which : event.keyCode ;
        
         // if enter (charcode 13) is pushed, send message, then clear input field
         if(charCode === 13){
-        	alert($(this).val());
         	ObserverSocket.send($(this).val());
             $(this).val('');    
         }
     }); 
 });
 
-function getChatSocket(){
-	// get websocket class, firefox has a different way to get it
-	var WS = window['MozWebSocket'] ? window['MozWebSocket'] : WebSocket;
-	// open pewpew with websocket
-	var socket = new WS('@routes.Application.wsInterface().webSocketURL(request)');
-	return socket;
-}
-
 function getObserverSocket(){
 	// get websocket class, firefox has a different way to get it
 	var WS = window['MozWebSocket'] ? window['MozWebSocket'] : WebSocket;
-	// open pewpew with websocket
-//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
+	// for secure socket
+	//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
 	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
 	return socket;
 }
