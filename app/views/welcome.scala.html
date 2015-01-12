@@ -1,7 +1,9 @@
 @main("Xiangqi - Chinese Chess") {
 
-	<h1>Welcome to Xiangqi</h1>
-	<button class="btn" type="button" id="startButton">Play!</button>
+	<div class="textfield toCenter">
+		<h1>Welcome to Xiangqi</h1>
+		<button class="btn" type="button" id="startButton" style="border: 1px solid black; margin-bottom: 1%;">Play!</button>
+	</div>
 	<script>$("#startButton").click(function(){
 		$("#dynamicallyLoadableContent").load("playGame" + " #dynamicallyLoadableContent");
 		$('#tohide').show();

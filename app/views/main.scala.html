@@ -39,21 +39,19 @@ href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('general');">General</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('advisor');">Advisor</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('cannon');">Cannon</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('horse');">Horse</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('chariot');">Chariot</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('elephant');">Elephant</button></li>
-							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('soldier');">Soldier</button></li>
+							<li><p class="btn" onclick="ruleTextFor('general');">General</p></li>
+							<li><p class="btn" onclick="ruleTextFor('advisor');">Advisor</p></li>
+							<li><p class="btn" onclick="ruleTextFor('cannon');">Cannon</p></li>
+							<li><p class="btn" onclick="ruleTextFor('horse');">Horse</p></li>
+							<li><p class="btn" onclick="ruleTextFor('chariot');">Chariot</p></li>
+							<li><p class="btn" onclick="ruleTextFor('elephant');">Elephant</p></li>
+							<li><p class="btn" onclick="ruleTextFor('soldier');">Soldier</p></li>
 						</ul></li>
 					<li><a href="http://en.wikipedia.org/wiki/Xiangqi#History" target="_blank">History</a></li>
 					<li><a href="http://en.wikipedia.org/wiki/Xiangqi"
 						target="_blank">xiangqi->wiki</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-user"></span>
-							Sign Up</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
 							Login</a></li>
 				</ul>
@@ -68,8 +66,8 @@ href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 	<div class="container-fluid"
 		id="tohide">
 		<div class="col-xs-0 col-sm-4 col-lg-3"></div>
-		<div class="textfield col-xs-12 col-sm-4 col-lg-6">
-			<h1>Chat</h1>
+		<div class="textfield col-xs-12 col-sm-4 col-lg-6 toCenter">
+			<p>Xiangqi Chat</p>
 			<input type="text" id="socket-input" style="width: 100%">
 			<div id="socket-messages" style="overflow: auto; height:100px;"></div>
 		</div>

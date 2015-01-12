@@ -10,18 +10,16 @@
 }
 
 body {
+	color: black;
 	background-image: url("../images/chinawallbackround.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-family: 'chinese';
 	/*text-transform: uppercase; */
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .board {
-/* 	background-image: url("../images/wooden_door_by_deedev.jpg"); */
-/* 	background-size: cover; */
-	color: #4C1A1A;
 	height: auto;
 	background-color: rgba(236, 236, 236, 0.6);
 	padding-top: 15px;
@@ -53,7 +51,7 @@ body {
 }
 
 .textfield {
-	color: #4C1A1A;
+	color: black;
 	height: auto;
 	background-color: rgba(236, 236, 236, 0.6);
 	border: 1px solid #4C1A1A;
@@ -81,7 +79,11 @@ input.nextMove {
 }
 
 .myNavBar {
-	background-color: lightseagreen;
+	background-color: rgba(158, 204, 255, 0.8);
+}
+
+.navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
@@ -91,7 +93,6 @@ input.nextMove {
 }
 
 .toCenter {
-	color: white;
 	text-align: center;
 }
 
