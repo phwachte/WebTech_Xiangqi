@@ -181,4 +181,30 @@ public class Application extends Controller {
 		}
 		return returnVal;
 	}
+	
+	
+	
+	public static Result Rule(String piece){
+		
+		switch(piece){
+		case "general":
+			return ok(views.html.rules_general.render());
+		case "advisor":
+			return ok(views.html.rules_advisor.render());
+		case "elephant":
+			return ok(views.html.rules_elephant.render());
+		case "horse":
+			return ok(views.html.rules_horse.render());
+		case "chariot":
+			return ok(views.html.rules_chariot.render());
+		case "cannon":
+			return ok(views.html.rules_cannon.render());
+		case "soldier":			
+			return ok(views.html.rules_soldier.render());
+		
+		default:
+			return ok(views.html.rules_general.render());
+		}
+		
+	}
 }

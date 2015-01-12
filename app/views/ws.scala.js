@@ -26,7 +26,8 @@ $(function(){
         	ObserverSocket.send($(this).val());
             $(this).val('');    
         }
-    }); 
+    });
+	
 });
 
 function getObserverSocket(){
@@ -36,4 +37,8 @@ function getObserverSocket(){
 	//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
 	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
 	return socket;
+}
+
+function ruleTextFor(piece){
+	$("#rules-text").load("/WUIrule/"+piece);
 }

@@ -31,13 +31,17 @@
             <li class="active"><a href="#">Home</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="@routes.Assets.at("/rules/general.html")" target="rules-text">General</a></li>
-                <li><button onclick="getElementById('rules-text').innerHTML=Date()">Advisor</button></li>
-                <li><a href="#">...</a></li>
+				<li><button onclick="ruleTextFor('general')">General</button></li>
+				<li><button onclick="ruleTextFor('advisor')">Advisor</button></li>
+				<li><button onclick="ruleTextFor('elephant')">Elephant</button></li>
+				<li><button onclick="ruleTextFor('horse')">Horse</button></li>
+				<li><button onclick="ruleTextFor('chariot')">Chariot</button></li>
+				<li><button onclick="ruleTextFor('cannon')">Cannon</button></li>
+				<li><button onclick="ruleTextFor('soldier')">Soldier</button></li>
               </ul>
             </li>
             <li><a href="#">History</a></li>
-            <li><a href="#">etc.</a></li>
+            <li><a href="http://en.wikipedia.org/wiki/Xiangqi" target="_blank" >xiangqi->wiki</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

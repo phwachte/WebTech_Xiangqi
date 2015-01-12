@@ -13,10 +13,11 @@ GET		/WUIlost					controllers.Application.WUIlost()
 
 GET		/getNewObserverSocket		controllers.Application.getNewObserverSocket()
 
-# Chat
+# javascript
 GET     /assets.javascript.ws.js    controllers.Application.wsJs()
-GET     /wsInterface               	controllers.Application.wsInterface()
 
+# rules
+GET		/WUIrule/:s					controllers.Application.Rule(s: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
