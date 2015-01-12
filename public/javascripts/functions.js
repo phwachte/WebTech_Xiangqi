@@ -23,8 +23,6 @@ function drop(ev) {
 	$("input.InputDestinationx").val(destx);
 	$("input.InputDestinationy").val(9-desty);
 	
-//	alert(figurex + " " + figurey + " " + destx + " " + desty);
-	
 	var input = "input/" + figurey + "%20" + figurex + "%20" + desty + "%20" + destx
 	$("#dynamicallyLoadableContent").load(input + " #dynamicallyLoadableContent");
 }

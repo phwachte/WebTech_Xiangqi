@@ -1,7 +1,7 @@
 var ObserverSocket;
 
 $(function(){
-	$('#tohide').hide();
+	$('#isHidden').hide();
 	$('#rules-text').hide();
 	
 	ObserverSocket = getObserverSocket();

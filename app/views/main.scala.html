@@ -4,22 +4,14 @@
 <html>
 <head>
 <title>@title</title>
-<link rel='shortcut icon' type='image/png'
-	href='@routes.Assets.at("images/favicon.png")'>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <script type='text/javascript' src='@routes.WebJarAssets.at(WebJarAssets.locate("jquery.min.js"))'></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript"
-	src='@routes.Assets.at("javascripts/functions.js")'></script>
-<script type="text/javascript" charset="utf-8"
-	src="@routes.Application.wsJs()"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<link rel='stylesheet' type="text/css"
-href='@routes.Assets.at("stylesheets/cssstyle.css")'>
+	<link rel='shortcut icon' type='image/png' href='@routes.Assets.at("images/favicon.png")'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src='@routes.Assets.at("javascripts/functions.js")'></script>
+	<script type="text/javascript" charset="utf-8" src="@routes.Application.wsJs()"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel='stylesheet' type="text/css" href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 </head>
 <body>
 
@@ -39,17 +31,23 @@ href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><p class="btn" onclick="ruleTextFor('general');">General</p></li>
-							<li><p class="btn" onclick="ruleTextFor('advisor');">Advisor</p></li>
-							<li><p class="btn" onclick="ruleTextFor('cannon');">Cannon</p></li>
-							<li><p class="btn" onclick="ruleTextFor('horse');">Horse</p></li>
-							<li><p class="btn" onclick="ruleTextFor('chariot');">Chariot</p></li>
-							<li><p class="btn" onclick="ruleTextFor('elephant');">Elephant</p></li>
-							<li><p class="btn" onclick="ruleTextFor('soldier');">Soldier</p></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('general');">General</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('advisor');">Advisor</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('elephant');">Elephant</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('horse');">Horse</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('chariot');">Chariot</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('cannon');">Cannon</p></li>
+							<li class="divider"></li>
+							<li><p class="btn li-btn" onclick="ruleTextFor('soldier');">Soldier</p></li>
 						</ul></li>
 					<li><a href="http://en.wikipedia.org/wiki/Xiangqi#History" target="_blank">History</a></li>
 					<li><a href="http://en.wikipedia.org/wiki/Xiangqi"
-						target="_blank">xiangqi->wiki</a></li>
+						target="_blank">Xiangqi->Wiki</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
@@ -63,17 +61,13 @@ href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 		<div id="dynamicallyLoadableContent">@content</div>
 	</div>
 
-	<div class="container-fluid"
-		id="tohide">
-		<div class="col-xs-0 col-sm-4 col-lg-3"></div>
-		<div class="textfield col-xs-12 col-sm-4 col-lg-6 toCenter">
+	<div class="container-fluid" id="isHidden">
+		<div class="textfield col-xs-12 col-sm-4 col-sm-offset-4 col-lg-6 col-lg-offset-3 toCenter">
 			<p>Xiangqi Chat</p>
-			<input type="text" id="socket-input" style="width: 100%">
-			<div id="socket-messages" style="overflow: auto; height:100px;"></div>
+			<input class="socket-input" type="text" id="socket-input">
+			<div class="chat-textfield" id="socket-messages"></div>
 		</div>
-		<div class="col-xs-0 col-sm-4 col-lg-3"></div>
 	</div>
-		
 
 	<!-- Modal -->
 	<div class="modal fade" id="advisorModal" tabindex="-1" role="dialog"
@@ -89,14 +83,12 @@ href='@routes.Assets.at("stylesheets/cssstyle.css")'>
 				</div>
 				<div class="modal-body" id="modal-body-id"></div>
 				<div class="modal-footer">
-					<textfield style="font-size:10px; float:left">source: wikipedia.org</textfield>
+					<textfield class="footer-modal">Source: wikipedia.org</textfield>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	
-	
+
 </body>
 </html>
