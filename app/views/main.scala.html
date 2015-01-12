@@ -3,69 +3,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@title</title>
-    <link rel='shortcut icon' type='image/png' href='@routes.Assets.at("images/favicon.png")'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel='stylesheet' type="text/css" href='@routes.Assets.at("stylesheets/cssstyle.css")'>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@title</title>
+<link rel='shortcut icon' type='image/png'
+	href='@routes.Assets.at("images/favicon.png")'>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel='stylesheet' type="text/css"
+	href='@routes.Assets.at("stylesheets/cssstyle.css")'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--     <script type='text/javascript' src='@routes.WebJarAssets.at(WebJarAssets.locate("jquery.min.js"))'></script> -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src='@routes.Assets.at("javascripts/functions.js")'></script>
-    <script type="text/javascript" charset="utf-8" src="@routes.Application.wsJs()"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src='@routes.Assets.at("javascripts/functions.js")'></script>
+<script type="text/javascript" charset="utf-8"
+	src="@routes.Application.wsJs()"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 	<nav class="navbar navbar-inverse">
-      <div class="container-fluid myNavBar">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xiangqiNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="/">@title</a>
-        </div>
-        <div class="collapse navbar-collapse" id="xiangqiNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-				<li><button onclick="ruleTextFor('general')">General</button></li>
-				<li><button onclick="ruleTextFor('advisor')">Advisor</button></li>
-				<li><button onclick="ruleTextFor('elephant')">Elephant</button></li>
-				<li><button onclick="ruleTextFor('horse')">Horse</button></li>
-				<li><button onclick="ruleTextFor('chariot')">Chariot</button></li>
-				<li><button onclick="ruleTextFor('cannon')">Cannon</button></li>
-				<li><button onclick="ruleTextFor('soldier')">Soldier</button></li>
-              </ul>
-            </li>
-            <li><a href="#">History</a></li>
-            <li><a href="http://en.wikipedia.org/wiki/Xiangqi" target="_blank" >xiangqi->wiki</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		<div class="container-fluid myNavBar">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#xiangqiNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">@title</a>
+			</div>
+			<div class="collapse navbar-collapse" id="xiangqiNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Rules<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('general');">General</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('advisor');">Advisor</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('cannon');">Cannon</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('horse');">Horse</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('chariot');">Chariot</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('elephant');">Elephant</button></li>
+							<li><button type="button" class="btn btn-primary btn-lg" onclick="ruleTextFor('soldier');">Soldier</button></li>
+						</ul></li>
+					<li><a href="http://en.wikipedia.org/wiki/Xiangqi#History" target="_blank">History</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Xiangqi"
+						target="_blank">xiangqi->wiki</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+							Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+							Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <div class="container-fluid myContent">
-    	<div id="dynamicallyLoadableContent">@content</div>
-    </div>
-    
-    <div class="textfield container-fluid" id="tohide">
-		<div>
-	        <h1>Chat</h1>
-	        <input type="text" id="socket-input">
-	        <div id="socket-messages" class="textfield" style=""></div>
-    	</div>
-   	</div>
-    
-    <div class="textfield container-fluid">
-		<div id="rules-text"></div>
-   	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-12 col-lg-8 container-fluid myContent">
+			<div id="dynamicallyLoadableContent">@content</div>
+		</div>
 
+		<div class="col-xs-12 col-md-6 col-lg-4 textfield container-fluid"
+			id="tohide">
+			<div>
+				<h1>Chat</h1>
+				<input type="text" id="socket-input">
+				<div id="socket-messages" class="textfield" style=""></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="advisorModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Choose piece</h4>
+				</div>
+				<div class="modal-body" id="modal-body-id"></div>
+				<div class="modal-footer">
+					<textfield style="font-size:10px; float:left">source: wikipedia.org</textfield>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
 </body>
 </html>

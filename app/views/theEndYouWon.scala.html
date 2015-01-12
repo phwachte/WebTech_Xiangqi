@@ -6,14 +6,14 @@
 		<h1>Congratulations! You won the game!</h1>
 	</div>
 	
-	<div class="col-xs-12 board">
+	<div class="col-xs-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
 		<div class="clearfix">
 		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
 				<image class="xcell"  src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<image class="xcell"  src="@routes.Assets.at("images/greenfield.png")">
+				<image class="xcell"  src="@routes.Assets.at("images/opacity.png")">
 			}
 		}
 		</div>

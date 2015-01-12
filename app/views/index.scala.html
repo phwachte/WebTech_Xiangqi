@@ -9,9 +9,9 @@
 		<div class="clearfix" id="boardRow@rID">
 		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
-				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<image class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/opacity.png")">
+				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/opacity.png")">
 			}
 		}
 		</div>
@@ -41,16 +41,13 @@
 				<p>x: <input class="nextMove InputDestinationx" type="text"></p>
 				<p>y: <input class="nextMove InputDestinationy" type="text"></p>
 			</div>
-		
-			<button class="btn nextMove col-xs-2 col-lg-2" type="button">Go!</button>
+			
 		</div>
 		<br>
-<!-- 	</section> -->
-	
-<!-- 	<section class="col-xs-12 col-md-6 col-lg-6"> -->
+
 		<div class="textfield container-fluid">
 			<div class="col-xs-6">
-				<p>You are player:</p>
+				<p>You:</p>
 				<div id="playersTurn"></div>
 				@if(playerID==1){
 					<div class="redcircle"></div>
@@ -59,7 +56,7 @@
 				}
 			</div>
 			<div class="col-xs-6 ">
-				<p>Current player:</p>
+				<p>Current:</p>
 				@if(turn==1){
 						<div class="redcircle"></div>
 				} else {

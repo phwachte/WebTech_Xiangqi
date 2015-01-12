@@ -1,14 +1,3 @@
-$("#dynamicallyLoadableContent").on("click", "button.nextMove",function(){
-	var figurex =$("input.InputFigurex").val();
-	var figurey =9-$("input.InputFigurey").val();
-	
-	var destinationx =$("input.InputDestinationx").val();
-	var destinationy =9-$("input.InputDestinationy").val();
-	
-	var input = "input/" + figurey + "%20" + figurex + "%20" + destinationy + "%20" + destinationx
-	$("#dynamicallyLoadableContent").load(input + " #dynamicallyLoadableContent");
-});
-
 var figurex;
 var figurey;
 var destx;

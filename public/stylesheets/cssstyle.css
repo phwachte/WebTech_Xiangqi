@@ -18,6 +18,11 @@ body {
 	font-size: 25px;
 }
 
+.board {
+	background-image: url("../images/wooden_door_by_deedev.jpg");
+	background-size: cover;
+}
+
 .h1 {
 	font-size: inherit;
 }
@@ -28,7 +33,7 @@ body {
 	border: 1px solid black;
 	display: inline-block;
 	float: left;
-	background-color: lavender;
+/* 	background-color: lavender; */
 }
 
 .riverpic {

@@ -2,6 +2,7 @@ var ObserverSocket;
 
 $(function(){
 	$('#tohide').hide();
+	$('#rules-text').hide();
 	
 	ObserverSocket = getObserverSocket();
 	
@@ -40,5 +41,6 @@ function getObserverSocket(){
 }
 
 function ruleTextFor(piece){
-	$("#rules-text").load("/WUIrule/"+piece);
+	$("#modal-body-id").load("/WUIrule/"+piece);
+	$('#advisorModal').modal('toggle');
 }
