@@ -72,7 +72,11 @@ public class Application extends Controller {
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
-						p.getMatch().updateChat(event);
+						String player = "[Player RED]: ";
+						if((p.getPlayerID()%2) == 0){
+							player = "[Player BLACK]: ";
+						}
+						p.getMatch().updateChat(player + event);
 					}
 				});
 

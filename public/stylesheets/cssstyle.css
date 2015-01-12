@@ -1,26 +1,38 @@
 /* @CHARSET "ISO-8859-1"; */
 @font-face {
 	font-family: 'chinese';
-	src: url("../fonts/CHINESETAKEAWAY.ttf"); /* Safari, Android, iOS */
+	src: url("../fonts/CHINESETAKEAWAY.ttf"); Safari, Android, iOS
 }
 
 @font-face {
 	font-family: 'gang';
-	src: url("../fonts/go3v2.ttf"); /* Safari, Android, iOS */
+	src: url("../fonts/go3v2.ttf"); Safari, Android, iOS
 }
 
 body {
-	background-image: url("../images/chinamountain.jpg");
+	background-image: url("../images/chinawallbackround.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-family: 'chinese';
-	/*text-transform: uppercase;*/
+	/*text-transform: uppercase; */
 	font-size: 25px;
 }
 
 .board {
-	background-image: url("../images/wooden_door_by_deedev.jpg");
-	background-size: cover;
+/* 	background-image: url("../images/wooden_door_by_deedev.jpg"); */
+/* 	background-size: cover; */
+	color: #4C1A1A;
+	height: auto;
+	background-color: rgba(236, 236, 236, 0.6);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 1px solid #4C1A1A;
+	border-radius: 25px;
+	
+}
+
+.CenterThis {
+	margin-left: 25%;
 }
 
 .h1 {
@@ -33,7 +45,6 @@ body {
 	border: 1px solid black;
 	display: inline-block;
 	float: left;
-/* 	background-color: lavender; */
 }
 
 .riverpic {
@@ -44,7 +55,8 @@ body {
 .textfield {
 	color: #4C1A1A;
 	height: auto;
-	background-color: rgba(210, 250, 247, 0.7);
+	background-color: rgba(236, 236, 236, 0.6);
+	border: 1px solid #4C1A1A;
 	border-radius: 25px;
 }
 
@@ -114,12 +126,6 @@ input.nextMove {
 @media ( max-width : 992px) {
 	.myContent section:first-of-type {
 		margin-bottom: 30px;
-	}
-}
-
-@media ( min-width : 992px) {
-	.myContent section:first-of-type {
-		
 	}
 }
 
