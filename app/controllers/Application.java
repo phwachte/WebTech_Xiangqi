@@ -44,10 +44,6 @@ public class Application extends JavaController {
             System.out.println("new player number: "+nextPlayerId);
     		players.add(nu);
 	    	response().setCookie("id", "" + nextPlayerId);
-            nu.setName("Player RED");
-            if((nu.getPlayerID()%2)==0){
-                nu.setName("Player BLACK");
-            }
 		    nextPlayerId++;
         }
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), ""));
@@ -57,6 +53,8 @@ public class Application extends JavaController {
 		Match m;
         String tmpstr;
 		int cookieId = Integer.parseInt(request().cookie("id").value());
+        Player player = players.get(cookieId -1);
+
 		if (lonelyMatch != null) {
 			m = lonelyMatch;
             response().setCookie("turn", "black");
@@ -68,9 +66,9 @@ public class Application extends JavaController {
             tmpstr = "red";
 			lonelyMatch = m;
 		}
-
-		players.get(cookieId - 1).setMatch(m);
-		m.addPlayer(players.get(cookieId - 1));
+        player.setName("[Player " + tmpstr.toUpperCase());
+		player.setMatch(m);
+		m.addPlayer(player);
 		return ok(views.html.index.render(transformStringToArrayList(m.getXg()
 				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), tmpstr));
 	}
