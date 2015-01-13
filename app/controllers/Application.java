@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.pac4j.core.profile.CommonProfile;
-import org.pac4j.play.java.JavaController;
-import org.pac4j.play.java.RequiresAuthentication;
-
 import model.Match;
 import model.Player;
 import model.Player.gameStat;
 import model.SimpleChat;
+
+import org.pac4j.core.profile.CommonProfile;
+import org.pac4j.play.java.JavaController;
+
 import play.libs.F.Callback;
 import play.libs.F.Callback0;
 import play.mvc.Result;
@@ -33,6 +33,11 @@ public class Application extends JavaController {
 
 	public static Result index() {
         CommonProfile profile = getUserProfile();
+        if(profile != null){
+        	players.remove(players.get(players.size()-1));
+        	nextPlayerId--;
+        }
+   
         Player nu = new Player(nextPlayerId);
 
 		players.add(nu);
