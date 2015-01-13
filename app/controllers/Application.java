@@ -167,7 +167,7 @@ public class Application extends JavaController {
 		
 		return ok(views.html.index.render(transformStringToArrayList(xg
 					.getTui().printBoard()), p.getMsg(),
-					turn, pID));
+					turn, request().cookie("turn").value()));
 	}
 
 	/*
