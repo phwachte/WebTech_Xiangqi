@@ -36,6 +36,7 @@ public class Application extends JavaController {
         Player nu = null;
         if(profile != null){
         	nu = players.get(nextPlayerId-2);
+		    //int cookieId = Integer.parseInt(request().cookie("id").value());
             nu.setName(profile.getEmail());
             return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), nu.getName()));
         }else{
@@ -83,13 +84,13 @@ public class Application extends JavaController {
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
-						p.getMatch().updateChat(event);
+						p.getMatch().updateChat(p, event);
 					}
 				});
 
 				in.onClose(new Callback0() {
 					public void invoke() {
-						p.getMatch().updateChat("Opponent closed Game");
+						p.getMatch().updateChat(p, "Opponent closed Game");
 					}
 				});
 			};
