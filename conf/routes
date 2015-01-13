@@ -15,7 +15,6 @@ GET		/getNewObserverSocket		controllers.Application.getNewObserverSocket()
 
 #OAuth
 GET   	/callback               	org.pac4j.play.CallbackController.callback()
-POST  	/callback               	org.pac4j.play.CallbackController.callback()
 GET   	/logout                 	org.pac4j.play.CallbackController.logoutAndRedirect()
 
 # javascript
