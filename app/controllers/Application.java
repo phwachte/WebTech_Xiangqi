@@ -20,16 +20,11 @@ import play.mvc.WebSocket;
 import de.htwg.xiangqi.XiangqiGame;
 import de.htwg.xiangqi.controller.IBoardManager;
 
-// TODO: authentication:
-// https://developers.google.com/accounts/docs/OpenIDConnect
-// https://github.com/pac4j/play-pac4j
-
 public class Application extends JavaController {
 
 	private static int boardColSize = 9;
 	private static int boardRowSize = boardColSize + 1;
 
-//	private static List<Match> matches = new ArrayList<Match>();
 	private static Match lonelyMatch = null;
 
 	private static List<Player> players = new ArrayList<Player>();
@@ -46,8 +41,9 @@ public class Application extends JavaController {
 
         if(profile != null){
             nu.setName(profile.getEmail());
+            return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()), nu.getName());
         }
-		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()));
+		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()), "");
 	}
 	
 	public static Result playGame() {

@@ -1,34 +1,19 @@
-@(url: String)
+@(url: String)(name: String)
 
 @main("Xiangqi - Chinese Chess") {
 
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3 textfield toCenter">
-			<h1>Welcome to Xiangqi</h1>
+			<h1>Welcome @name to  Xiangqi</h1>
 			<button class="btn" type="button" id="startButton" style="border: 1px solid black; margin-bottom: 1%;">Play!</button>
 		</div>
 	</div>
 	<br>
-	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3 textfield toCenter">
-			<h2>Login</h2>
-			<br>
-			<form action="">
-				<label for="user-input">Username:</label>
-				<input class="user-input" id="user-input" type="text" value="admin">
-				<br>
-				<label for="pw-input">Password:</label>
-				<input class="pw-input" id="pw-input" type="password" value="admin">
-				<br>
-				<button class="btn" type="button" id="login-button" style="border: 1px solid black; margin-bottom: 1%;">Login</button>
-			</form>
-		</div>
-	</div>
 	
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3 textfield toCenter">
 			<div>
-		       <a href="@url"><img alt="Sign in with google" src="https://developers.google.com/accounts/images/sign-in-with-google.png" ></a>
+		       <a href="@url"><img alt="Sign in with google" src="https://developers.google.com/accounts/images/sign-in-with-google.png" style="width:60%"></a>
 		    </div>
 	    </div>
     </div>
