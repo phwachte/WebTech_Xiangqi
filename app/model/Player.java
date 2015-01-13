@@ -6,7 +6,7 @@ public class Player {
 	
 	public static enum gameStat {WON, ONGOING, LOST};
 
-	private String name;
+	private String name = null;
 	private int playerID;
 	private WebSocket<String> webSock;
 	private WebSocket.In<String> in;

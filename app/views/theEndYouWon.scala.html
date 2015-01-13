@@ -1,23 +1,23 @@
 @(list: ArrayList[ArrayList[String]])
 
 @main("The End") {
-	
-	<div class="col-xs-12">
-		<h1>Congratulations! You won the game!</h1>
-	</div>
-	
-	<div class="col-xs-6 board">
-	@for((element, rID) <- list.zipWithIndex) {
-		<div class="clearfix">
-		@for((cell, cID) <- element.zipWithIndex){
-			@if(cell!="  "){
-				<image class="xcell"  src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
-			} else {
-				<image class="xcell"  src="@routes.Assets.at("images/opacity.png")">
-			}
-		}
-		</div>
-	}
-	</div>
-	
+    <div class="row">        
+        <div class="col-xs-6 col-xs-offset-3 textfieldi toCenter"
+            <h1>Congratulations! You won the game!</h1>
+        </div>
+        
+        <div class="col-xs-6 col-xs-offset-3 board">
+        @for((element, rID) <- list.zipWithIndex) {
+            <div class="clearfix">
+            @for((cell, cID) <- element.zipWithIndex){
+                @if(cell!="  "){
+                    <image class="xcell"  src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+                } else {
+                    <image class="xcell"  src="@routes.Assets.at("images/opacity.png")">
+                }
+            }
+            </div>
+        }
+        </div>
+    </div>
 }

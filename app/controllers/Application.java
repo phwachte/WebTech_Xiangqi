@@ -37,9 +37,16 @@ public class Application extends JavaController {
 	private static int nextPlayerId = 1;
 
 	public static Result index() {
-		players.add(new Player(nextPlayerId));
+        CommonProfile profile = getUserProfile();
+        Player nu = new Player(nextPlayerId);
+
+		players.add(nu);
 		response().setCookie("id", "" + nextPlayerId);
 		nextPlayerId++;
+
+        if(profile != null){
+            nu.setName(profile.getDisplayName());
+        }
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()));
 	}
 	
@@ -87,10 +94,16 @@ public class Application extends JavaController {
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
-						String player = "[Player RED]: ";
-						if((p.getPlayerID()%2) == 0){
-							player = "[Player BLACK]: ";
-						}
+                        String player;
+                        if(p.getName != null){
+                            player = "["+p.getName+"]: ";
+                        }else{
+                            player = "[Player RED]: ";
+                            if((p.getPlayerID()%2) == 0){
+                                player = "[Player BLACK]: ";
+                            }    
+                        }
+						
 						p.getMatch().updateChat(player + event);
 					}
 				});
