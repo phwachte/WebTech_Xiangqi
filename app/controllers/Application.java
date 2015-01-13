@@ -141,10 +141,10 @@ public class Application extends JavaController {
 		Player p = players.get(cookieId - 1);
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
-		int pID = cookieId % 2;
+		String color = request().cookie("turn").value();
 		int turn = bm.getPlayersTurn();
 
-		if (pID == turn) {
+		if (((color.equals("red"))&&(turn == 1))||((color.equals("black"))&&(turn == 0))) {
 			boolean checkmate = bm.inputMove(s);
 			p.setMsg(bm.getMessage());
 			if (checkmate) {
