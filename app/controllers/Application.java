@@ -45,24 +45,12 @@ public class Application extends JavaController {
 		nextPlayerId++;
 
         if(profile != null){
-            nu.setName(profile.getDisplayName());
+            nu.setName(profile.getEmail());
         }
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()));
 	}
 	
-	@RequiresAuthentication(clientName = "Google2Client")
-	public static Result protectedIndex() {
-		// profile
-		  final CommonProfile profile = getUserProfile();
-		  return ok(views.html.protectedIndex.render(profile));
-	}
-
 	public static Result playGame() {
-		CommonProfile profile = getUserProfile();
-		if(profile == null) {
-    	    String url = getRedirectAction("Google2Client").getLocation();
-    		return ok(views.html.welcome.render(url));
-		}
 		Match m;
 		int cookieId = Integer.parseInt(request().cookie("id").value());
 		if (lonelyMatch != null) {
