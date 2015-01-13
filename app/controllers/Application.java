@@ -35,8 +35,8 @@ public class Application extends JavaController {
         CommonProfile profile = getUserProfile();
         Player nu = null;
         if(profile != null){
-        	nu = players.get(nextPlayerId-2);
-		    //int cookieId = Integer.parseInt(request().cookie("id").value());
+        	nu = players.get(Integer.parseInt(request().cookie("id").value())-1);
+		    
             nu.setName(profile.getEmail());
             return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), nu.getName()));
         }else{
