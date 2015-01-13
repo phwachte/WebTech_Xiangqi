@@ -66,7 +66,7 @@ public class Application extends JavaController {
             tmpstr = "red";
 			lonelyMatch = m;
 		}
-        player.setName("[Player " + tmpstr.toUpperCase());
+        player.setName("Player " + tmpstr.toUpperCase());
 		player.setMatch(m);
 		m.addPlayer(player);
 		return ok(views.html.index.render(transformStringToArrayList(m.getXg()
