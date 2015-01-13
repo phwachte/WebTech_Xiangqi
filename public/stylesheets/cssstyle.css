@@ -53,7 +53,7 @@ body {
 	height:100px;
 }
 
-input .socket-input, .user-input, .pw-input {
+input.socket-input {
 	width: 100%;
 }
 
