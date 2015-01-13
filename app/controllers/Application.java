@@ -41,7 +41,7 @@ public class Application extends JavaController {
             return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), nu.getName()));
         }else{
             nu = new Player(nextPlayerId);
-            System.out.println("new player number: "+nextPlayerTd);
+            System.out.println("new player number: "+nextPlayerId);
     		players.add(nu);
 	    	response().setCookie("id", "" + nextPlayerId);
             nu.setName("Player RED");
