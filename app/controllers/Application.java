@@ -33,20 +33,16 @@ public class Application extends JavaController {
 
 	public static Result index() {
         CommonProfile profile = getUserProfile();
+        Player nu = null;
         if(profile != null){
-        	players.remove(players.get(players.size()-1));
-        	nextPlayerId--;
-        }
-   
-        Player nu = new Player(nextPlayerId);
-
-		players.add(nu);
-		response().setCookie("id", "" + nextPlayerId);
-		nextPlayerId++;
-
-        if(profile != null){
+        	nu = players.get(nextPlayerId-2);
             nu.setName(profile.getEmail());
             return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), nu.getName()));
+        }else{
+            nu = new Player(nextPlayerId);
+    		players.add(nu);
+	    	response().setCookie("id", "" + nextPlayerId);
+		    nextPlayerId++;
         }
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), ""));
 	}
