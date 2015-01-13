@@ -5,13 +5,16 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.pac4j.core.profile.CommonProfile;
+import org.pac4j.play.java.JavaController;
+import org.pac4j.play.java.RequiresAuthentication;
+
 import model.Match;
 import model.Player;
 import model.Player.gameStat;
 import model.SimpleChat;
 import play.libs.F.Callback;
 import play.libs.F.Callback0;
-import play.mvc.Controller;
 import play.mvc.Result;
 import play.mvc.WebSocket;
 import de.htwg.xiangqi.XiangqiGame;
@@ -21,7 +24,7 @@ import de.htwg.xiangqi.controller.IBoardManager;
 // https://developers.google.com/accounts/docs/OpenIDConnect
 // https://github.com/pac4j/play-pac4j
 
-public class Application extends Controller {
+public class Application extends JavaController {
 
 	private static int boardColSize = 9;
 	private static int boardRowSize = boardColSize + 1;
@@ -37,10 +40,22 @@ public class Application extends Controller {
 		players.add(new Player(nextPlayerId));
 		response().setCookie("id", "" + nextPlayerId);
 		nextPlayerId++;
-		return ok(views.html.welcome.render());
+		return ok(views.html.welcome.render(""));
+	}
+	
+	@RequiresAuthentication(clientName = "Google2Client")
+	public static Result protectedIndex() {
+		// profile
+		  final CommonProfile profile = getUserProfile();
+		  return ok(views.html.protectedIndex.render(profile));
 	}
 
 	public static Result playGame() {
+		CommonProfile profile = getUserProfile();
+		if(profile == null) {
+    	    String url = getRedirectAction("Google2Client").getLocation();
+    		return ok(views.html.welcome.render(url));
+		}
 		Match m;
 		int cookieId = Integer.parseInt(request().cookie("id").value());
 		if (lonelyMatch != null) {

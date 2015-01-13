@@ -13,6 +13,12 @@ GET		/WUIlost					controllers.Application.WUIlost()
 
 GET		/getNewObserverSocket		controllers.Application.getNewObserverSocket()
 
+#OAuth
+GET   	/protected/index.html   	controllers.Application.protectedIndex()
+GET   	/callback               	org.pac4j.play.CallbackController.callback()
+POST  	/callback               	org.pac4j.play.CallbackController.callback()
+GET   	/logout                 	org.pac4j.play.CallbackController.logoutAndRedirect()
+
 # javascript
 GET     /assets.javascript.ws.js    controllers.Application.wsJs()
 
