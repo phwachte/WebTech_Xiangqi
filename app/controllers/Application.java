@@ -42,9 +42,9 @@ public class Application extends JavaController {
             nu = new Player(nextPlayerId);
     		players.add(nu);
 	    	response().setCookie("id", "" + nextPlayerId);
-            nu.setPlayerName("Player RED");
+            nu.setName("Player RED");
             if((nu.getPlayerID()%2)==0){
-                nu.setPlayerName("Player BLACK");
+                nu.setName("Player BLACK");
             }
 		    nextPlayerId++;
         }
