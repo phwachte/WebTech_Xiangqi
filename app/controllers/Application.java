@@ -54,19 +54,24 @@ public class Application extends JavaController {
 	
 	public static synchronized Result playGame() {
 		Match m;
+        String tmpstr;
 		int cookieId = Integer.parseInt(request().cookie("id").value());
 		if (lonelyMatch != null) {
 			m = lonelyMatch;
+            response().setCookie("turn", "black");
+            tmpstr = "black";
 			lonelyMatch = null;
 		} else {
 			m = new Match(nextMatchId++);
+            response().setCookie("turn", "red");
+            tmpstr = "red";
 			lonelyMatch = m;
 		}
 
 		players.get(cookieId - 1).setMatch(m);
 		m.addPlayer(players.get(cookieId - 1));
 		return ok(views.html.index.render(transformStringToArrayList(m.getXg()
-				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), cookieId % 2));
+				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), tmpstr));
 	}
 
 	// Websocket intrface for Observersocket
@@ -105,7 +110,7 @@ public class Application extends JavaController {
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
 		return ok(views.html.index.render(transformStringToArrayList(xg
-				.getTui().printBoard()), p.getMsg(), bm.getPlayersTurn(), cookieId % 2));
+				.getTui().printBoard()), p.getMsg(), bm.getPlayersTurn(), request().cookie("turn").value()));
 	}
 	
 	public static Result WUIwon() {
