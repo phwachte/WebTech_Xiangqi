@@ -57,17 +57,6 @@ public class Application extends Controller {
 				.getTui().printBoard()), null, m.getBm().getPlayersTurn(), cookieId % 2));
 	}
 
-	// Websocket interface fro Chat
-	public static WebSocket<String> wsInterface() {
-		return new WebSocket<String>() {
-			// called when websocket handshake is done
-			public void onReady(WebSocket.In<String> in,
-					WebSocket.Out<String> out) {
-				SimpleChat.start(in, out);
-			}
-		};
-	}
-
 	// Websocket intrface for Observersocket
 	public static WebSocket<String> getNewObserverSocket() {
 		int cookieId = Integer.parseInt(request().cookie("id").value());
@@ -83,7 +72,11 @@ public class Application extends Controller {
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
-						p.getMatch().updateChat(event);
+						String player = "[Player RED]: ";
+						if((p.getPlayerID()%2) == 0){
+							player = "[Player BLACK]: ";
+						}
+						p.getMatch().updateChat(player + event);
 					}
 				});
 
@@ -191,5 +184,31 @@ public class Application extends Controller {
 			returnVal.add(tmpList);
 		}
 		return returnVal;
+	}
+	
+	
+	
+	public static Result Rule(String piece){
+		
+		switch(piece){
+		case "general":
+			return ok(views.html.rules_general.render());
+		case "advisor":
+			return ok(views.html.rules_advisor.render());
+		case "elephant":
+			return ok(views.html.rules_elephant.render());
+		case "horse":
+			return ok(views.html.rules_horse.render());
+		case "chariot":
+			return ok(views.html.rules_chariot.render());
+		case "cannon":
+			return ok(views.html.rules_cannon.render());
+		case "soldier":			
+			return ok(views.html.rules_soldier.render());
+		
+		default:
+			return ok(views.html.rules_general.render());
+		}
+		
 	}
 }
