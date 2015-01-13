@@ -95,8 +95,8 @@ public class Application extends JavaController {
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
                         String player;
-                        if(p.getName != null){
-                            player = "["+p.getName+"]: ";
+                        if(p.getName() != null){
+                            player = "["+p.getName()+"]: ";
                         }else{
                             player = "[Player RED]: ";
                             if((p.getPlayerID()%2) == 0){
