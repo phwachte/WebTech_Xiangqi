@@ -4,7 +4,7 @@
 	<div class="col-xs-12 col-md-6 board">
 	@for((element, rID) <- list.zipWithIndex) {
 		@if(rID == 5){
-			<img class="clearfix riverpic" src="@routes.Assets.at("images/river.png")">
+			<img class="clearfix riverpic" src="@routes.Assets.at("/images/river.png")">
 		}
 		<div class="clearfix" id="boardRow@rID">
 		@for((cell, cID) <- element.zipWithIndex){
