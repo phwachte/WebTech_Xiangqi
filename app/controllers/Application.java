@@ -52,7 +52,7 @@ public class Application extends JavaController {
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), ""));
 	}
 	
-	public static Result playGame() {
+	public static synchronized Result playGame() {
 		Match m;
 		int cookieId = Integer.parseInt(request().cookie("id").value());
 		if (lonelyMatch != null) {
