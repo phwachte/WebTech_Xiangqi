@@ -10,8 +10,8 @@ public class Global extends GlobalSettings {
 	public void onStart(final Application app) {
 		// OAuth
 		final Google2Client google2client = new Google2Client(
-				"874845075147-jt9ik5o4a9dq5umhb60939kkp4t8naqg.apps.googleusercontent.com",
-				"HjieGVsUSfinBNH0ebIAu6VG");
+				"874845075147-ggteisd258f5hosu68qnlm9u41sv1oat.apps.googleusercontent.com",
+				"N9vLFudbGo5ACD6JdXCvLy3S");
 
 		final Clients clients = new Clients(
 				"https://htwg-xiangqi.herokuapp.com/callback", google2client);
