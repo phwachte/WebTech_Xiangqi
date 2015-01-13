@@ -40,7 +40,7 @@ public class Application extends JavaController {
 		players.add(new Player(nextPlayerId));
 		response().setCookie("id", "" + nextPlayerId);
 		nextPlayerId++;
-		return ok(views.html.welcome.render(""));
+		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()));
 	}
 	
 	@RequiresAuthentication(clientName = "Google2Client")
