@@ -42,6 +42,10 @@ public class Application extends JavaController {
             nu = new Player(nextPlayerId);
     		players.add(nu);
 	    	response().setCookie("id", "" + nextPlayerId);
+            nu.setPlayerName("Player RED");
+            if((nu.getPlayerID()%2)==0){
+                nu.setPlayerName("Player BLACK");
+            }
 		    nextPlayerId++;
         }
 		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), ""));
@@ -79,17 +83,7 @@ public class Application extends JavaController {
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
-                        String player;
-                        if(p.getName() != null){
-                            player = "["+p.getName()+"]: ";
-                        }else{
-                            player = "[Player RED]: ";
-                            if((p.getPlayerID()%2) == 0){
-                                player = "[Player BLACK]: ";
-                            }    
-                        }
-						
-						p.getMatch().updateChat(player + event);
+						p.getMatch().updateChat(event);
 					}
 				});
 
