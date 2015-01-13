@@ -41,9 +41,9 @@ public class Application extends JavaController {
 
         if(profile != null){
             nu.setName(profile.getEmail());
-            return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()), nu.getName());
+            return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), nu.getName()));
         }
-		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation()), "");
+		return ok(views.html.welcome.render(getRedirectAction("Google2Client").getLocation(), ""));
 	}
 	
 	public static Result playGame() {
