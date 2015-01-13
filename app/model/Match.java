@@ -59,9 +59,9 @@ public class Match implements IObserver {
 		}
 	}
 
-	public void updateChat(String s) {
-		p1.getOut().write("["+p1.getName()+"]: "+s);
-		p2.getOut().write("["+p2.getName()+"]: "+s);
+	public void updateChat(Player player, String s) {
+		p1.getOut().write("["+player.getName()+"]: "+s);
+		p2.getOut().write("["+player.getName()+"]: "+s);
 		System.out.println("########UpdateChat: " + s);
 	}
 
