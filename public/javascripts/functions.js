@@ -28,7 +28,7 @@ function drop(ev) {
 	$("#dynamicallyLoadableContent").load(input + " #dynamicallyLoadableContent");
 }
 
-function cellclicked(event){
+function cellclicked(ev){
     figurex=ev.target.dataset.x;
     figurey=ev.target.dataset.y;
     
