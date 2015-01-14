@@ -37,6 +37,7 @@ function cellclicked(ev){
         $("input.InputFigurey").val(9-figurey);
         clickflag = 1;
     }else{
+        alert("figx: " + figurex + " figy: " + figurey);
         $("input.InputDestinationx").val(destx);
         $("input.InputDestinationy").val(9-desty);
 
