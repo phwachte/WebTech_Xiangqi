@@ -33,11 +33,12 @@ function cellclicked(ev){
     figurey=ev.target.dataset.y;
     
     if(clickflag == 0){
-        $("input.InputFigurex").val(figurex);
-        $("input.InputFigurey").val(9-figurey);
+        $("input.InputFigurex").val(destx);
+        $("input.InputFigurey").val(9-desty);
         clickflag = 1;
     }else{
-        alert("figx: " + figurex + " figy: " + figurey);
+        desty=figurey;
+        destx=figurex;
         $("input.InputDestinationx").val(figurex);
         $("input.InputDestinationy").val(9-figurey);
 
