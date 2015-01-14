@@ -36,11 +36,10 @@ function getObserverSocket(){
 	var WS = window['MozWebSocket'] ? window['MozWebSocket'] : WebSocket;
 	// for secure socket
 	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request, true)');
-//	var socket = new WS('@routes.Application.getNewObserverSocket().webSocketURL(request)');
 	return socket;
 }
 
 function ruleTextFor(piece){
 	$("#modal-body-id").load("/WUIrule/"+piece);
-	$('#advisorModal').modal('toggle');
+	$('#ruleModal').modal('toggle');
 }
