@@ -8,8 +8,6 @@ import java.util.regex.Pattern;
 import model.Match;
 import model.Player;
 import model.Player.gameStat;
-import model.SimpleChat;
-
 import org.pac4j.core.profile.CommonProfile;
 import org.pac4j.play.java.JavaController;
 
@@ -84,7 +82,6 @@ public class Application extends JavaController {
 					WebSocket.Out<String> out) {
 				p.setIn(in);
 				p.setOut(out);
-				SimpleChat.connections.add(out);
 
 				in.onMessage(new Callback<String>() {
 					public void invoke(String event) {
