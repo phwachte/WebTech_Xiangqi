@@ -38,8 +38,8 @@ function cellclicked(ev){
         clickflag = 1;
     }else{
         alert("figx: " + figurex + " figy: " + figurey);
-        $("input.InputDestinationx").val(destx);
-        $("input.InputDestinationy").val(9-desty);
+        $("input.InputDestinationx").val(figurex);
+        $("input.InputDestinationy").val(9-figurey);
 
         var input = "input/" + figurey + "%20" + figurex + "%20" + desty + "%20" + destx
         $("#dynamicallyLoadableContent").load(input + " #dynamicallyLoadableContent");
