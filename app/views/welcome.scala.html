@@ -11,15 +11,17 @@
 	<br>
 	
 	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3 bubble-transparent  toCenter">
+		<div class="col-xs-6 col-xs-offset-3 toCenter">
 			<div>
-		       <a href="@url"><img alt="Sign in with google" src="https://developers.google.com/accounts/images/sign-in-with-google.png" style="width:60%"></a>
+		       <a href="@url"><img alt="Google login" src="https://developers.google.com/accounts/images/sign-in-with-google.png" style="width:60%"></a>
 		    </div>
 	    </div>
     </div>
 	
-	<script>$("#startButton").click(function(){
-		$("#dynamicallyLoadableContent").load("playGame" + " #dynamicallyLoadableContent");
-		$('#isHidden').show();
-	})</script>
+	<script>
+		$("#startButton").click(function(){
+			$("#dynamicallyLoadableContent").load("playGame" + " #dynamicallyLoadableContent");
+			$('#isHidden').show();
+		})
+	</script>
 }

@@ -1,7 +1,7 @@
 @(list: ArrayList[ArrayList[String]])(message: String)(turn: Int)(pcolor: String)
 
 @main("Xiangqi - Chinese Chess") {
-	<div class="col-xs-12 col-md-6 board">
+	<div class="col-xs-12 col-md-6 bubble-transparent board">
 	@for((element, rID) <- list.zipWithIndex) {
 		@if(rID == 5){
 			<img class="clearfix riverpic" src="@routes.Assets.at("images/river.png")">
@@ -65,11 +65,6 @@
 			</div>
 		</div>
 		<br>
-		
-		
-    	
-    	
-    	
 	</section>
 	
 }
