@@ -29,7 +29,6 @@ function drop(ev) {
 }
 
 function cellclicked(event){
-    alert("HAHAHAH");
     figurex=ev.target.dataset.x;
     figurey=ev.target.dataset.y;
     
