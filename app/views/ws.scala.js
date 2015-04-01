@@ -3,9 +3,9 @@ var ObserverSocket;
 $(function(){
 	$('#isHidden').hide();
 	$('#rules-text').hide();
-	
+
 	ObserverSocket = getObserverSocket();
-	
+    setInterval(function(){ObserverSocket.send("ping");}, 40000);
 	ObserverSocket.onmessage = function(event){
 		if(event.data == "updateNow"){
 			$("#dynamicallyLoadableContent").load("/WUIupdate" + " #dynamicallyLoadableContent");

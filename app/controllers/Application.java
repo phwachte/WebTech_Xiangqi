@@ -64,7 +64,9 @@ public class Application extends JavaController {
             tmpstr = "red";
 			lonelyMatch = m;
 		}
-        player.setName("Player " + tmpstr.toUpperCase());
+		if(player.getName() == null){
+			player.setName("Player " + tmpstr.toUpperCase());
+		}
 		player.setMatch(m);
 		m.addPlayer(player);
 		return ok(views.html.index.render(transformStringToArrayList(m.getXg()
@@ -132,7 +134,6 @@ public class Application extends JavaController {
 
 	public static Result input(String s) {
 		int cookieId = Integer.parseInt(request().cookie("id").value());
-		System.out.println("\n\ninput()OUT:\n" + cookieId + "\n\n");
 		Player p = players.get(cookieId - 1);
 		XiangqiGame xg = p.getMatch().getXg();
 		IBoardManager bm = xg.getBm();
@@ -150,17 +151,12 @@ public class Application extends JavaController {
 					p.getMatch().getP1().setStat(gameStat.LOST);
 				}
 				p.setMsg(bm.winnerMessage());
-				p.getMatch().update();
-//				return ok(views.html.theEndYouWon.render(transformStringToArrayList(xg
-//						.getTui().printBoard())));
-				
+				p.getMatch().update();	
 			}
-			
 		} else {
 			p.setMsg("Please wait! Opponent's turn...");
 			
-		}
-		
+		}		
 		return ok(views.html.index.render(transformStringToArrayList(xg
 					.getTui().printBoard()), p.getMsg(),
 					turn, request().cookie("turn").value()));

@@ -9,9 +9,9 @@
 		<div class="clearfix" id="boardRow@rID">
 		@for((cell, cID) <- element.zipWithIndex){
 			@if(cell!="  "){
-				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
+				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" onclick="cellclicked(event);" src="@routes.Assets.at("images/"+cell.toLowerCase+".png")">
 			} else {
-				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/opacity.png")">
+				<img class="xcell" data-x="@cID" data-y="@rID" draggable="true" onclick="cellclicked(event)" ondragstart="drag(event);" ondrop="drop(event);" ondragover="allowDrop(event);" src="@routes.Assets.at("images/opacity.png")">
 			}
 		}
 		</div>
